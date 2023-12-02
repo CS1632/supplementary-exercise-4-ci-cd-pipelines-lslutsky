@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.wonsunahn</groupId>
-  <artifactId>cs1632-cicd-pipelines-lhs16</artifactId>
+  <artifactId>cs1632-cicd-pipelines</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
@@ -33,14 +33,6 @@
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
    </scm>
 
-     <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Apache Maven Packages</name>
-      <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-lslutsky</url>
-    </repository>
-  </distributionManagement>
-
   <distributionManagement>
     <repository>
       <id>github</id>
@@ -66,10 +58,9 @@
       <scope>test</scope>
     </dependency>
 
-
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>cs1632-cicd-pipelines-lhs16</artifactId>
+      <artifactId>cs1632-cicd-pipelines</artifactId>
       <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
